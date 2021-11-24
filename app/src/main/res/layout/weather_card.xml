@@ -56,17 +56,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp" />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/deleteCityButton"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@drawable/roundcorner"
-                android:backgroundTint="@color/imageBgColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
                 android:contentDescription="@string/deleteCity"
+                android:focusable="true"
+                android:minWidth="30dp"
+                android:minHeight="30dp"
                 app:srcCompat="@drawable/ic_minus_circle"
-                app:tint="@color/error"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck"
+                app:tint="@color/error" />
 
         </LinearLayout>
 

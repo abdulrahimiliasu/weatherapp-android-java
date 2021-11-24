@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -66,7 +66,7 @@ public class WeatherCardAdapter extends RecyclerView.Adapter<WeatherCardAdapter.
         public final TextView titleTextView;
         public final TextView typeTextView;
         public final TextView positionTextView;
-        public final ImageButton deleteButton;
+        public final ImageView deleteButton;
 
         final WeatherCardAdapter adapter;
 
